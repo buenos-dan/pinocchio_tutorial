@@ -1,0 +1,44 @@
+{
+  "editor.fontSize": 18,
+  "clangd.path": "/home/buenos/buenos/clangd/clangd_15.0.3/bin/clangd",
+  "extensions.ignoreRecommendations": true,
+  "terminal.integrated.persistentSessionScrollback": 500000,
+  "terminal.integrated.scrollback": 500000,
+  "git.ignoreLegacyWarning": true,
+  "editor.wordWrap": "on",
+  "editor.rulers": [
+    120
+  ],
+  "editor.minimap.enabled": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.colorCustomizations": {
+    "editorBracketMatch.border": "#FF0000",
+    "editor.selectionBackground": "#2f9db194",
+    "editor.selectionHighlightBackground": "#2f9db194",
+    "editor.findMatchBackground": "#dbdbdba1",
+    "editor.findMatchHighlightBackground": "#dbdbdba1",
+    "tab.activeBackground": "#5b6474",
+  },
+  "files.trimTrailingWhitespace": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": true,
+  "editor.tabSize": 2,
+  "files.maxMemoryForLargeFilesMB": 8192,
+  "cmake.buildDirectory": "${workspaceFolder}/build/x86_64/debug",
+  "clangd.arguments": [
+    "--background-index",
+    "--compile-commands-dir=${workspaceFolder}/build",
+    "--clang-tidy",
+    "--completion-style=bundled",
+    "-j=8",
+    "--header-insertion=never"
+  ],
+  "git.autofetch": true,
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+  "editor.formatOnSave": true,
+  "C_Cpp.intelliSenseEngine": "Disabled",
+  "window.zoomLevel": 3,
+  "git.confirmSync": false,
+}
